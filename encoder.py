@@ -16,6 +16,8 @@ def encoder(model,filename):
     out =features(img_tensor)
     return out
 
+#insert path of file in variable filename for which you want to find feature volume.
+##an example
 filename="DiLiGenT-MV\DiLiGenT-MV\mvpmsData\\bearPNG\\view_01\\001.png"
 model = torch.hub.load('pytorch/vision:v0.10.0', 'resnet18', pretrained=True)
 
