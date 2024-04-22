@@ -1,1 +1,1 @@
-# pixel-NERF implementation using pytorch
+# Volume Rendering Using MLP for NERF Based Models
